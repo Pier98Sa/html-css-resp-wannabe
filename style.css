@@ -91,12 +91,13 @@ img {
 
 
   /*media query per la sezione delle lezioni*/
+  
   #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
-    width: 100%;
-    margin: 15px 0px;
-    font-size: 13px;
+    width: calc(100vw - 20px);
+    margin: 15px 10px;
+    font-size: 12px;
   }
 
   #lezioni .row{
@@ -109,43 +110,47 @@ img {
   }
 
   /*media query per la sezione steps*/
+
   #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: none;
-  width: 100%;
-  margin: 20px 0px;
-  font-size: 13px;
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: calc(100vw - 20px);
+    margin: 20px 0px;
+    font-size: 12px;
+    margin: 10px 10px;
 }
- #steps .row{
+  #steps .row{
    background-color: #fff;
  }
 
- #steps .central{
+  #steps .central{
    margin: 20px 0px;
  }
 
  /*media query per la sezione why*/ 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 20px;
-  font-size: 13px;
-}
 
-#why .row>.third{
-  margin-bottom: 20px;
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: calc(100vw - 20px);
+    margin-top: 20px;
+    font-size: 12px;
+    margin: 10px  10px;
+  }
+
+  #why .row>.third{
+    margin-bottom: 20px;
 }
-#why .row img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px;
-  height: 70px;
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+    height: 50px;
 }
 
 #why .row{
-  background-color: #f2f2cd;
+    background-color: #f2f2cd;
 }
 
 }
