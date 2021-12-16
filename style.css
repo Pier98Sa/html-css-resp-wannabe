@@ -79,6 +79,7 @@ img {
   *{
     margin: 0;
     padding: 0;
+
   }
   .row {
     width: 100vw;
@@ -88,16 +89,19 @@ img {
     height: 100px;
   }
 
+
   /*media query per la sezione delle lezioni*/
   #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
     width: 100%;
     margin: 15px 0px;
+    font-size: 13px;
   }
 
   #lezioni .row{
     background-color: #f2f2cd;
+    
   }
 
   #lezioni .row h1{
@@ -111,6 +115,7 @@ img {
   float: none;
   width: 100%;
   margin: 20px 0px;
+  font-size: 13px;
 }
  #steps .row{
    background-color: #fff;
@@ -126,8 +131,12 @@ img {
 #why .row>.third {
   width: 100%;
   margin-top: 20px;
+  font-size: 13px;
 }
 
+#why .row>.third{
+  margin-bottom: 20px;
+}
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
