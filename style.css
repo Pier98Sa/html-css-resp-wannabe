@@ -155,7 +155,7 @@ img {
 }
 
 /*Media Query esercizio bonus*/
-@media all and (min-width: 421px) and (max-width: 768px){
+@media all and (min-width: 421px) and (max-width: 810px){
   *{
     margin: 0;
     padding: 0;
@@ -167,7 +167,7 @@ img {
   }
 
   img{
-    height: 130px; 
+    height: 120px; 
   }
 
   h3{
