@@ -71,3 +71,33 @@ img {
 .clear {
   clear: both;
 }
+
+/*Media Query*/
+
+@media all and (max-width: 420px){
+  /*media query per la sezione delle lezioni*/
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    font-size: 1.8em;
+  }
+
+ h1{
+    font-size: 4em;
+  }
+  #lezioni .row{
+    margin: 0px;
+    padding: 10px;
+    background-color: #f2f2cd;
+  }
+
+  /*media query per la sezione del Come Funziona*/
+  #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+}
+ 
+}
