@@ -167,8 +167,11 @@ img {
   }
 
   img{
-    height: 130px;
-    
+    height: 130px; 
+  }
+
+  h3{
+    margin: 10px 0px;
   }
 
 
@@ -183,7 +186,7 @@ img {
   
   #lezioni .row{
     width: 100vw;
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2ff; 
   }
 
   /*media query per la sezione steps*/
@@ -206,6 +209,10 @@ img {
     padding: 0px 10px;
   }
 
+  #steps .row{
+    width: 100vw;
+    background-color: #fff; 
+  }
   /*media query per la sezione why*/
   #why .row{
     display: flex;
@@ -226,8 +233,23 @@ img {
     padding: 0px 10px;
   }
 
+  #why .row>.first{
+    order: 1;
+  }
+
+  #why .row>.second{
+    order: 3;
+  }
+
+  #why .row>.third{
+    order: 2;
+  }
   #why hr{
     display: none;
   }
 
+  #why .row{
+    width: 100vw;
+    background-color: #f2f2f2ff; 
+  }
 }
