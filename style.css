@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-/*Media Query*/
+/*Media Query esercizio base*/
 
 @media all and (max-width: 420px){
   /*regole generali*/
@@ -153,4 +153,9 @@ img {
     background-color: #f2f2cd;
 }
 
+}
+
+/*Media Query esercizio bonus*/
+@media all and (min-width: 420px) and (max-width: 768px){
+  
 }
