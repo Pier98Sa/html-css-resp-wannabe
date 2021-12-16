@@ -181,7 +181,7 @@ img {
     width: 50vw;
     font-size: 15px;
     margin: 50px 0px;
-    padding: 0px 10px;
+    padding: 0px 15px;
   }
   
   #lezioni .row{
@@ -206,7 +206,7 @@ img {
   #steps .row>.right{
     flex-basis: 50vw;
     margin: 50px 0px;
-    padding: 0px 10px;
+    padding: 0px 15px;
   }
 
   #steps .row{
@@ -230,7 +230,7 @@ img {
   #why .row>.third{
     flex-basis: 50vw;
     margin: 50px 0px;
-    padding: 0px 10px;
+    padding: 0px 15px;
   }
 
   #why .row>.first{
