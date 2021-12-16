@@ -168,7 +168,10 @@ img {
 
   img{
     height: 130px;
+    
   }
+
+
   /*media query per la sezione delle lezioni*/
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -202,4 +205,29 @@ img {
     margin: 50px 0px;
     padding: 0px 10px;
   }
+
+  /*media query per la sezione why*/
+  #why .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #why .row h1{
+    align-self: center;
+    flex-basis: 100vw;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    flex-basis: 50vw;
+    margin: 50px 0px;
+    padding: 0px 10px;
+  }
+
+  #why hr{
+    display: none;
+  }
+
 }
