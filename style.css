@@ -89,7 +89,6 @@ img {
     height: 100px;
   }
 
-
   /*media query per la sezione delle lezioni*/
   
   #lezioni .row>.left,
@@ -146,7 +145,7 @@ img {
 }
 
 /*Media Query esercizio bonus*/
-@media all and (min-width: 421px) and (max-width: 810px){
+@media all and (min-width: 421px) and (max-width: 768px){
   *{
     margin: 0;
     padding: 0;
