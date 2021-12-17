@@ -197,7 +197,6 @@ img {
   }
 
   #steps .row h1{
-    align-self: center;
     flex-basis: 100vw;
   }
   #steps .row>.left,
