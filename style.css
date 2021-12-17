@@ -234,6 +234,7 @@ img {
   #why .row>.third{
     order: 2;
   }
+  
   #why hr{
     display: none;
   }
