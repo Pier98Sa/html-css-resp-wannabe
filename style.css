@@ -164,8 +164,6 @@ img {
   .row {
     width: 100vw;
     margin-top: 0px;
-    /*aggiunto per coprire il bug di chrome che faceva comprarire la scroll bar anche se niente andava in overflow*/
-    overflow-x: hidden; 
   }
 
   img{
