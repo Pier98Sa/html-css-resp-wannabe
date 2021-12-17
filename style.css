@@ -137,12 +137,11 @@ img {
     background-color: #428bca;
     border-radius: 50%;
     padding: 30px;
-    height: 50px;
-}
+  }
 
-#why .row{
-    background-color: #f2f2cd;
-}
+  #why .row{
+      background-color: #f2f2cd;
+  }
 
 }
 
